@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    height: 50px;
+    width: calc(100vw - 2em);
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #071f4bd1
+}
+
+.navlist {
+    width: auto;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+.navlist li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 1em;
+    color: white;
+}
+
+.navlist li:hover {
+    background-color: #204c9d;
+  }
+
+.navlink {
+    color: inherit;
+    text-decoration: inherit;
+}

@@ -10,7 +10,7 @@ export default function useToken() {
     const [token, setToken] = useState(getToken());
 
     const isAuthenticated = () => {
-        return token !== null
+        return token !== null && token !== undefined
     }
 
     const saveToken = userToken => {

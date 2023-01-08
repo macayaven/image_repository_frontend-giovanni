@@ -4,8 +4,7 @@ import useToken from '../../hooks/useToken';
 import './Navbar.css';
 
 
-export default function Navbar() {
-    const { isAuthenticated } = useToken();
+export default function Navbar({ isAuthenticated }) {
 
     return (
         <header>

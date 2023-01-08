@@ -21,7 +21,19 @@
     padding: 0 1em 0 1em;
     display: flex;
     flex-direction: column;
+}
+
+.image-list-data {
     align-items: flex-start;
+}
+
+.image-list-add {
+    align-items: center;
+    justify-content: center;
+}
+
+.add-icon {
+    font-size: 50px;
 }
 
 .image-list-detail:hover {

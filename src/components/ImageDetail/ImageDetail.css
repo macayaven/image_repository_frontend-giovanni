@@ -1,0 +1,61 @@
+#image-detail {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#image-detail-card {
+    width: 1000px;
+}
+
+#img-div {
+    padding: 1em;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#comments-container {
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+}
+
+.comment {
+    width: 100%;
+    background-color: rgba(244, 241, 241, 0.788);
+    padding: 0.5em;
+    border-radius: 2px;
+    color: rgb(39, 39, 39);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 11px;
+}
+
+#new-comment-form {
+    width: calc(100% - 1em);
+    height: 100px;
+    background-color: rgba(244, 241, 241, 0.788);
+    padding: 1em;
+    border-radius: 2px;
+    color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#new-comment-form textarea {
+    width: 90%;
+    height: 90%;
+}

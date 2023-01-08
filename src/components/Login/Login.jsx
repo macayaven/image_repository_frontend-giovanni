@@ -18,8 +18,6 @@ export default function Login({setToken}) {
             }).catch(err => {
                 alert('Error while login. Please, check your credentials and try again.');
             });
-        
-
     }
 
 

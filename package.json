@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@cornerstonejs/core": "^0.23.0",
+    "@cornerstonejs/streaming-image-volume-loader": "^0.6.12",
+    "@cornerstonejs/tools": "^0.32.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
